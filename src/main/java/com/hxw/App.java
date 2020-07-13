@@ -1,4 +1,4 @@
-package com.hw1;
+package com.hxw;
 
 /**
  * Hello world!

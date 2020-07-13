@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--这一段是通过元素以及ref属性为Besn其中的对象进行赋值（已测试成功）
+    <bean id="s" class="com.hxw.hw1.entity.Student">
+        <property name="name" value="hxw"></property>
+        <property name="sex" value="女"></property>
+        <property name="num" ref="n"></property>
+    </bean>
+
+    <bean id="n" class="com.hxw.hw1.entity.Number">
+        <property name="a" value="10"></property>
+        <property name="b" value="5"></property>
+    </bean>
+                                                   -->
+    
+    <context:component-scan base-package="com.hxw.hw1"></context:component-scan>
+
+    
+</beans>
